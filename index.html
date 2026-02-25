@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Runze Dong | Senior Software Engineer</title>
+  <meta name="description" content="Runze Dong — Senior Software Engineer. Full-stack, cloud transformation, backend architecture, performance optimization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="brand" href="#top">Runze Dong</a>
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="top" class="hero">
+      <div class="hero-card">
+        <div class="kicker">Senior Software Engineer</div>
+        <h1>Building reliable, scalable systems for modern products.</h1>
+        <p class="sub">
+          Full-stack engineer experienced in cloud transformation, backend architecture, and performance optimization.
+          Recently focused on low-code functional testing and AI-related product features.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Contact</a>
+          <a class="btn" href="#projects">View Projects</a>
+        </div>
+
+        <div class="meta">
+          <span>Shanghai, China</span>
+          <span class="dot">•</span>
+          <a href="mailto:sendrunzedong@gmail.com">sendrunzedong@gmail.com</a>
+          <span class="dot">•</span>
+          <a href="tel:+8618964050227">(+86) 189-6405-0227</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Impact-focused work across full-stack development, cloud services, and performance.</p>
+      </div>
+
+      <div class="stack">
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h3>OpenText — Senior Software Engineer</h3>
+              <div class="muted">Shanghai · Jun 2022 – Present</div>
+            </div>
+            <span class="pill">Full-stack</span>
+          </div>
+          <ul class="bullets">
+            <li>Developed low-code (codeless) and AI-related features for a functional testing product to improve enterprise testing efficiency and reduce maintenance cost.</li>
+            <li>Refactored and optimized existing AI capabilities, migrating from desktop to an Angular-based web application to support cloud transformation.</li>
+            <li>Led backend development for a test file hosting service, enabling browser-based file management and supporting future cloud migration.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h3>LeetCode CN — Backend Engineer</h3>
+              <div class="muted">Shanghai · Dec 2020 – Jun 2022</div>
+            </div>
+            <span class="pill">Backend</span>
+          </div>
+          <ul class="bullets">
+            <li>Owned backend development for community content features to improve user engagement and experience.</li>
+            <li>Rebuilt and optimized the user home feed to support rapid user growth and fast product iteration.</li>
+            <li>Designed and implemented a tipping/reward system to increase content creation and community activity.</li>
+            <li>Led the mobile platform backend (middleware) build-out to improve API stability and performance.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <div>
+              <h3>Twobulls LLC — Software Engineer</h3>
+              <div class="muted">New York · Aug 2016 – May 2020</div>
+            </div>
+            <span class="pill">Product</span>
+          </div>
+          <ul class="bullets">
+            <li>Delivered enterprise solutions with the team, providing product development and technical support using modern technologies.</li>
+            <li>Built early prototypes and iterated solutions independently using Python Django and AWS services.</li>
+            <li>Implemented monitoring integrations and diagnostic tools to improve usability and team efficiency.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Selected Projects</h2>
+        <p>Highlighted work from recent roles.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Test File Hosting Service (OpenText)</h3>
+          <p class="muted">
+            Led architecture and technology selection for a multi-user collaborative file hosting service. Integrated AWS CodeCommit for git-style
+            versioning and implemented Redis distributed read/write locks for concurrent operations.
+          </p>
+          <div class="tags">
+            <span class="tag">AWS CodeCommit</span>
+            <span class="tag">Redis</span>
+            <span class="tag">Concurrency</span>
+            <span class="tag">Architecture</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Low-code Functional Testing Web App (OpenText)</h3>
+          <p class="muted">
+            Built Angular features for a codeless functional testing product replacing a desktop app, enabling users to author tests in the browser and
+            use AI-related capabilities. Worked on editor syntax highlighting/parsing and integrated the file hosting service.
+          </p>
+          <div class="tags">
+            <span class="tag">Angular</span>
+            <span class="tag">Editor</span>
+            <span class="tag">Syntax Highlight</span>
+            <span class="tag">Integration</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Mobile Data Middleware (LeetCode)</h3>
+          <p class="muted">
+            Led monolith split and API optimization to improve stability and latency. Reduced P95 latency from ~2s to ~300ms and helped cut app crash
+            rate to 0.3%. Owned core services and release management.
+          </p>
+          <div class="tags">
+            <span class="tag">Performance</span>
+            <span class="tag">Service Split</span>
+            <span class="tag">API</span>
+            <span class="tag">Operations</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Community Feed Optimization (LeetCode)</h3>
+          <p class="muted">
+            Migrated activity feed data from PostgreSQL to NoSQL to support rapid growth, and implemented feature iterations on top of the new storage layer.
+          </p>
+          <div class="tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">NoSQL</span>
+            <span class="tag">Migration</span>
+            <span class="tag">Backend</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Core technologies and tooling.</p>
+      </div>
+
+      <div class="card">
+        <div class="skills">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Go</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Frameworks</h4>
+            <div class="tags">
+              <span class="tag">Django</span>
+              <span class="tag">Angular</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>APIs & Messaging</h4>
+            <div class="tags">
+              <span class="tag">GraphQL</span>
+              <span class="tag">gRPC</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Databases</h4>
+            <div class="tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">DynamoDB</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Infra</h4>
+            <div class="tags">
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-head">
+        <h2>Education</h2>
+        <p>Academic background.</p>
+      </div>
+
+      <div class="stack">
+        <article class="card">
+          <h3>New York University</h3>
+          <div class="muted">M.S. in Electrical Engineering · Aug 2014 – May 2016</div>
+        </article>
+
+        <article class="card">
+          <h3>Nanjing University of Posts and Telecommunications</h3>
+          <div class="muted">B.Eng. in Communication Engineering · Sep 2010 – Jun 2014</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Best ways to reach me.</p>
+      </div>
+
+      <div class="card contact">
+        <a class="contact-row" href="mailto:sendrunzedong@gmail.com">
+          <span>Email</span><span class="muted">sendrunzedong@gmail.com</span>
+        </a>
+        <a class="contact-row" href="tel:+8618964050227">
+          <span>Phone</span><span class="muted">(+86) 189-6405-0227</span>
+        </a>
+        <a class="contact-row" href="https://github.com/runzedong" target="_blank" rel="noreferrer">
+          <span>GitHub</span><span class="muted">github.com/runzedong</span>
+        </a>
+        <a class="contact-row" href="https://linkedin.com/in/runze-dong-4" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span><span class="muted">linkedin.com/in/runze-dong-4</span>
+        </a>
+
+        <div class="contact-note muted">
+          Work portfolio: OpenText · LeetCode · Twobulls
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      © <span id="y"></span> Runze Dong · Built with GitHub Pages
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
